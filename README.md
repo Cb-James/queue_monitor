@@ -1,5 +1,9 @@
 Poll Desk API for current queue stats, and write 'em to a CSV file.
 
+To install and run:
+- From a terminal, run `git clone https://github.com/Cb-James/queue_monitor.git`
+- then run `./desk_queue_monitor start &`
+
 Requires the following environment variables to work:
 
 - DESK_KEY
