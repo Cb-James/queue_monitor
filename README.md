@@ -15,3 +15,6 @@ Requires the following environment variables to work:
 - DESK_INBOX_ID
 - DESK_24_ID
 - QUEUE_STATS_FILE
+
+to stop it, run `./desk_queue_monitor stop`
+to check status: `./desk_queue_monitor status`
