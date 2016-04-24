@@ -7,7 +7,7 @@ start ()
     else
         while true; do
             ./_get_queue_stats.rb
-            sleep 3600
+            sleep 3580 # 1 hour minus avg. execution time (20s)
         done
     fi
 }
